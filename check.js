@@ -27,6 +27,4 @@ const byTwo = (input, start) => {
   return start >= 0 && byTwo(input, start);  
 }
 
-console.log()
-
 module.exports = {check, byTwo};
